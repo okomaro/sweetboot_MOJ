@@ -1,0 +1,25 @@
+Flow projekt - sweetbot.design
+
+
+Det lille fiktive webbureau Sweetbot har brug for jeres hjælp. 
+Virksomheden har specialiseret sig indenfor følgende områder:
+
+Webudvikling
+Digital security
+Branding
+
+Sweetbot er internationalt orienteret og består af 4 medarbejdere samt 2 CEOs. 
+
+Sweetbot ønsker at implementere en dansk udgave af deres website. 
+Websitet skal være optimeret til mobile enheder og Sweetbot ønsker desuden, at der skal indgå jQuery elementer i løsningen.
+
+Udover den tekniske løsning, bliver I også bedt om at give et bud på visuelle elementer samt informationarkitektur til sitet. Sweetbot har en style guide som skal følges (se vedhæftede fil) samt et logo som skal implementeres (se vedhæftede .eps fil).
+
+Sweetbot har netop udviklet deres egen e-commerce løsning under navnet HotBot, men mangler et logo samt ikoner til løsningen. Dette skal I også udvikle og demonstrere i den online website løsning. Logoet skal desuden tilføjes den aktuelle styleguide.
+
+Sidst men ikke mindst skal I foretage en brugertest af sitet.
+
+Flowet afsluttes med en fælles præsentationsdag, hvor vi vurderer og diskuterer jeres løsning i plenum.
+
+Gruppestørrelsen skal være på 3. Navnene på gruppens medlemmer samt link til websiteløsningen skal uploades som en pdf-fil senest den 24. november, kl. 12.00.
+
