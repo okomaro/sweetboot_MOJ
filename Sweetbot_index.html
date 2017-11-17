@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sweetbot index</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="script/jquery-3.2.1.min.js"></script>
+	<!-- loading jQuery plugin (https://github.com/flesler/jquery.scrollTo) -->
+    <script type="text/javascript" src="script/jquery.scrollTo.min.js"></script>
+	<script type="text/javascript" src="src/skdslider.min.js"></script>
+	
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#demo1').skdslider({'delay':5000, 'animationSpeed': 2000,'showNextPrev':true,'showPlayButton':true,'autoSlide':true,'animationType':'fading'});
+			jQuery('#demo2').skdslider({'delay':5000, 'animationSpeed': 1000,'showNextPrev':true,'showPlayButton':false,'autoSlide':true,'animationType':'sliding'});
+			jQuery('#demo3').skdslider({'delay':5000, 'animationSpeed': 2000,'showNextPrev':true,'showPlayButton':true,'autoSlide':true,'animationType':'fading'});
+			
+			jQuery('#responsive').change(function(){
+			  $('#responsive_wrapper').width(jQuery(this).val());
+			});
+			
+		});
+	</script>
+		<script type="text/javascript">
+	
+    // the famous document.ready function, takes an anonymous function as argument
+    $(document).ready(function(){
+        // all JS code goes here:
+        
+        // implementing the scrollTo plugin
+        
+        $("#navigation_container a").click(function(e){
+            e.preventDefault();
+            $(window).scrollTo(this.hash, 1000);
+            
+        });
+		 $("#footer_links a").click(function(e){
+            e.preventDefault();
+            $(window).scrollTo(this.hash, 1000);
+            
+        });
+});
+</script>
+<link href="styles.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link href="src/skdslider.css" rel="stylesheet" type="text/css">
+	<link href="css/demo.css" rel="stylesheet" type="text/css">
+	<link href="css/footer-distributed.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="navigation_bar">
+    <div id="navigation_container">
+		<a href="#home_content"><img src="Ikoner/Sweetbot_logo_blue.svg" alt=""/></a>
+		  	<div class="dropdown">
+  <button class="dropbtn">Services</button>
+  <div class="dropdown-content">
+    <a href="#digitalSecurity">Digital Sikkerhed</a>
+    <a href="#branding">Branding</a>
+    <a href="#webdev">Webudvikling</a>  
+  </div>
+</div>
+		<ul>
+
+       <!-- <li><a href="#">Digital Sikkerhed</a></li>
+        <li><a href="#">Branding</a></li>
+        <li><a href="#">Webudvikling</a></li>-->
+			<li><a href="#hotbot">HotBot Webshops</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+        <li><a href="#about">Om Os</a></li>
+		
+		<li><form>
+  			<input type="text" name="search" placeholder="Search..">
+		</form>
+		</li>
+      </ul>
+    </div>
+	</div>
+<section id="home-content">
+	<h1>Sweetbot</h1>
+
+	<div id="demo" class="skdslider">
+	<ul id="demo1">
+<li>
+<img src="slides/1.jpg" />
+<!--Slider Description example-->
+ <div class="slide-desc">
+		<h2>Slider Title 1</h2>
+		<p>Demo description here. Demo description here. Demo description here. Demo description here. Demo description here. <a class="more" href="#">more</a></p>
+  </div>
+</li>
+<li><img src="slides/2.jpg" />
+   <div class="slide-desc">
+		<h2>Slider Title 2</h2>
+		<p>Demo description here. Demo description here. Demo description here. Demo description here. Demo description here. <a class="more" href="#">more</a></p>
+  </div>
+</li>
+<li><img src="slides/3.jpeg" />
+<!--NO Description Here-->
+</li>
+<li><img src="slides/4.jpg" />
+  <div class="slide-desc">
+		<h2>Slider Title 4</h2>
+		<p>Demo description here. Demo description here. Demo description here. Demo description here. Demo description here. <a class="more" href="#">more</a></p>
+  </div>
+</li>
+<li><img src="slides/5.jpg" /></li>
+<li><img src="slides/6.jpg" />
+  <div class="slide-desc">
+		<h2>Slider Title 6</h2>
+		<p>Demo description here. Demo description here. Demo description here. Demo description here. Demo description here. <a class="more" href="#">more</a></p>
+  </div>
+</li>
+</ul>
+</div>
+		
+	</section>	
+	
+<section id="services"><h1>Sweetbot Services</h1></section>
+<section id="digitalSecurity"><h1>Branding</h1></section>	
+	<section id="branding"><h1>Branding</h1></section>
+<section id="webdev"><h1>Hjemmeside</h1></section>
+	<section id="hotbot"><h1>HotBot Webshops</h1></section>
+<section id="contact"><h1>Kontakt os her</h1></section>
+<section id="about"><h1>Hvad er Sweetbot?</h1></section>
+
+	
+	<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="#"><img src="Ikoner/sort_twitter_icon.png" width="50" height="50" alt=""/></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+
+			</div>
+
+			<div class="footer-left">
+				<div id="footer_links">
+				<p class="footer-links">
+					<a href="#home-content">HOME</a> ·
+					
+					<a href="#digitalSecurity">DIGITAL SIKKERHED</a> ·				
+					
+					<a href="#branding">BRANDING</a> ·
+					
+					<a href="#webdev">WEBDEV</a> ·
+					
+					<a href="#hotbot">HOTBOT</a> ·				
+					
+					<a href="#contact">KONTAKT OS</a> ·
+					
+					<a href="#about">OM OS</a>
+				</p>
+
+				<p>sweetbot.design &copy; 2017</p>
+				</div>
+				</div>
+
+		</footer>
+</body>
+</html>
